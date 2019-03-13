@@ -1,0 +1,18 @@
+body{
+	background-color: #ffffff;
+	text-align: center;
+}
+
+h1{
+	color: #000000;
+}
+
+#slogan{
+	color: #a9a9a9;
+	font-style: italic;
+}
+
+ul{	
+	text-align: center;
+	list-style-type: none;
+}
