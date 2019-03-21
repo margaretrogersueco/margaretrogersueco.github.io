@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Raleway');
+
+body{
+	background-color: #ffffff;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1{
+	color: #000000;
+	font-family: 'PT Serif', serif;
+}
+
+ul{	
+	text-align: center;
+	list-style-type: circle;
+}
+
+footer { 
+  display: block;
+}
