@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Raleway');
+
+body{
+	background-color: #ffffff;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+div class "wrapper"{
+    background-color: #ffffff;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header{
+    background-color: #ffffff;
+    border: none;
+    padding: 20px;
+}
+
+h1{
+	color: #000000;
+	font-family: 'PT Serif', serif;
+}
+
+nav{
+    background-color: #ffffff;
+    border: none;
+    padding: 5px;
+}
+
+section id "intro"{
+    background-image: url(unit_8/images/yoga-studio-1.jpg);
+    display: block;
+    border: none;
+    padding: none;
+    width: 100%;
+}
+
+section id "one"{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    width: 100%
+}
+
+main{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    width: 100%;
+}
+
+ul{	
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+}
+
+footer{
+    background-color: #ffffff;
+    border: 1px black solid;
+    padding: 20px;	
+}
+
+#three_column {
+    background-color: #ffffff;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #ffffff;
+    border: none;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#middle{
+    background-color: #ffffff;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    width: 30%;
+}
+
+#right {
+    background-color: #ffffff;
+    border: none;
+    padding: 20px;
+    float: right;
+    width: 30%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media screen only and (min-width: 500px) {
+footer {
+float: none;
+}
