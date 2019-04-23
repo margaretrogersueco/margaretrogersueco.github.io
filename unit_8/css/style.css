@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif|Raleway');
+* {margin:0;padding:0;box-sizing:border-box;}
 
 body{
 	background-color: #ffffff;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
 
-div class "wrapper"{
+.wrapper{
     background-color: #ffffff;
-    border: 1px black solid;
-    padding: 20px;
 }
 
 header{
     background-color: #ffffff;
-    border: none;
-    padding: 20px;
+    padding: .75em;
 }
 
 h1{
@@ -25,28 +25,25 @@ h1{
 
 nav{
     background-color: #ffffff;
-    border: none;
-    padding: 5px;
+    padding: .75em;
 }
 
-section id "intro"{
-    background-image: url(unit_8/images/yoga-studio-1.jpg);
-    display: block;
-    border: none;
-    padding: none;
-    width: 100%;
+#intro{
+    background-image: url(../images/yoga-studio-3.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding: 15em 5em;
+    background-repeat: none;
 }
 
-section id "one"{
-    background-color: #FFE2B8;
-    border: 1px black solid;
+#one{
+    background-color: #ffffff;
     padding: 20px;
     width: 100%
 }
 
 main{
-    background-color: #FFE2B8;
-    border: 1px black solid;
+    background-color: #ffffff;
     padding: 20px;
     width: 100%;
 }
@@ -54,43 +51,21 @@ main{
 ul{	
 	text-align: center;
 	list-style-type: none;
-	padding: 0;
+	padding: 1.5em;
 }
 
-footer{
+footer>*{
     background-color: #ffffff;
-    border: 1px black solid;
-    padding: 20px;	
+    width: 33.33%;
+    float: left;
+    padding: 4em;
+    text-align: center;	
 }
 
 #three_column {
     background-color: #ffffff;
     border: 1px black solid;
     padding: 20px;
-}
-
-#left {
-    background-color: #ffffff;
-    border: none;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-
-#middle{
-    background-color: #ffffff;
-    border: none;
-    padding: 20px;
-    display: inline-block;
-    width: 30%;
-}
-
-#right {
-    background-color: #ffffff;
-    border: none;
-    padding: 20px;
-    float: right;
-    width: 30%;
 }
 
 .clearfix:after {
