@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Raleway');
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body{
+	background-color: #ffffff;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.wrapper{
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #ffffff;
+    padding: .75em;
+    position: fixed;
+    display: block;
+    top: 0;
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    max-width: 100%;
+    width: 100%;
+}
+
+h1{
+	color: #000000;
+	font-family: 'PT Serif', serif;
+}
+
+nav{
+    background-color: #ffffff;
+    padding: .75em;
+    color: #000000;
+}
+
+#intro{
+    background-image: url(../images/katee-lue-1410418-unsplash.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+    padding: 15em 5em;
+    background-repeat: none;
+}
+
+#one{
+    background-color: #ffffff;
+    padding: 50px;
+    margin-left: 15em;
+    margin-right: 15em;
+    width: 100%
+    text-align: center;
+}
+
+main{
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+}
+
+ul{	
+	text-align: center;
+	list-style-type: none;
+	padding: 1.5em;
+}
+
+footer>*{
+    background-color: #ffffff;
+    width: 33.33%;
+    float: left;
+    padding: 4em;
+    text-align: center;	
+}
+
+#three_column {
+    background-color: #ffffff;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
+
+a:active {
+    color: #green;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media screen only and (min-width: 500px) {
+footer {
+float: none;
+}
+
+@media screen only and (min-width: 768px) {
+#one{
+margin-left: none;
+margin-right: none;
+padding: none;
+}
